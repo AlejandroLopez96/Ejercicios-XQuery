@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="bailes">
+	<xsd:complexType>
+		    <xsd:sequence>
+              <xsd:element ref="baile"  maxOccurs="unbounded" />
+         </xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+  
+ <xsd:element name ="baile">
+     <xsd:complexType>
+       <xsd:sequence>
+                   <xsd:element name="nombre" type="xsd:string" />
+			            <xsd:element ref="precio" />
+			            <xsd:element name="plazas" type="xsd:integer" />
+ 		            	<xsd:element name="comienzo" type="xsd:string" />
+ 			            <xsd:element name="fin" type="xsd:string" />
+			            <xsd:element name="profesor" type="xsd:string" />
+			            <xsd:element name="sala" type="xsd:integer" />
+			  </xsd:sequence>
+                     <xsd:attribute name="id" type="xsd:string"  use="required"/>
+      </xsd:complexType>
+</xsd:element>
+
+		<xsd:element name="precio">
+		<xsd:complexType>
+		<xsd:simpleContent>
+		<xsd:extension base="xsd:integer">
+              <xsd:attribute name="cuota" type="xsd:string" />
+			        <xsd:attribute name="moneda" type="xsd:string" />
+    </xsd:extension>
+    </xsd:simpleContent>
+	</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>
+

@@ -1,0 +1,63 @@
+19:29:11.238  INFO  [lib BDbaile] Library opened by Qizx 4.4p1
+19:29:11.238  INFO  [lib BDbaile]  location C:\Users\Alex Lopez\Desktop\DAW\Lenguaje de marcas\XQUERY\Ejercicioss\BDbaile
+19:29:11.238  INFO  [lib BDbaile]  document storage version=5, lastBId=30, BCount=22, maxA=502
+19:29:18.438  INFO  [lib BDbaile] commit start BDbaile (session 1)
+19:29:18.438  INFO  [lib BDbaile] commit 4 on BDbaile (session 1)
+19:29:18.508  INFO  [lib BDbaile] commit 4 done
+19:29:18.508  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 ][ 1 2 3 4 ]
+19:29:18.508  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 22 in ms 1.084972
+19:29:18.508  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 23
+19:32:02.391  INFO  [lib BDbaile] commit start BDbaile (session 1)
+19:32:02.392  INFO  [lib BDbaile] commit 5 on BDbaile (session 1)
+19:32:02.439  INFO  [lib BDbaile] commit 5 done
+19:32:02.439  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 8 in ms 0.384627
+19:32:02.439  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 ][ 1 2 3 4 ]
+19:32:02.439  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 9
+20:38:16.022  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:38:17.387  INFO  [lib BDbaile] commit 6 on BDbaile (session 1)
+20:38:17.472  INFO  [lib BDbaile] commit 6 done
+20:38:17.472  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 16 in ms 0.2991
+20:38:17.472  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 ][ 1 2 3 4 5 ]
+20:38:17.472  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 17
+20:38:41.514  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:38:41.567  INFO  [lib BDbaile] commit 7 on BDbaile (session 1)
+20:38:41.630  INFO  [lib BDbaile] commit 7 done
+20:38:41.630  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 35 in ms 0.056692
+20:38:41.630  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 ][ 1 2 3 4 5 6 ]
+20:38:41.630  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 36
+20:38:42.832  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:38:42.854  INFO  [lib BDbaile] commit 8 on BDbaile (session 1)
+20:38:42.969  INFO  [lib BDbaile] commit 8 done
+20:38:42.985  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 39 in ms 8.451544
+20:38:42.985  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 6 ][ 1 2 3 4 5 6 7 ]
+20:38:42.985  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 40
+20:41:28.933  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:41:28.965  INFO  [lib BDbaile] commit 9 on BDbaile (session 1)
+20:41:29.018  INFO  [lib BDbaile] commit 9 done
+20:41:29.018  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 43 in ms 0.260491
+20:41:29.018  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 6 7 ][ 1 2 3 4 5 6 7 8 ]
+20:41:29.018  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 44
+20:42:04.352  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:42:04.406  INFO  [lib BDbaile] commit 10 on BDbaile (session 1)
+20:42:04.538  INFO  [lib BDbaile] commit 10 done
+20:42:04.538  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 47 in ms 0.240453
+20:42:04.538  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 6 7 8 ][ 1 2 3 4 5 6 7 8 9 ]
+20:42:04.538  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 48
+20:46:50.702  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:46:50.749  INFO  [lib BDbaile] commit 11 on BDbaile (session 1)
+20:46:50.834  INFO  [lib BDbaile] commit 11 done
+20:46:50.834  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 51 in ms 0.472599
+20:46:50.834  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 52
+20:46:50.887  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 6 7 8 9 ][ 1 2 3 4 5 6 7 8 9 a ]
+20:46:50.887  INFO  [lib BDbaile] start auto compaction of 10 M segments to 000B: 0001 0002 0003 0004 0005 0006 0007 0008 0009 000A
+20:46:50.919  INFO  [lib BDbaile] compaction done -> state: [ 1 2 3 4 5 6 7 8 9 ][ b ]
+20:46:56.033  INFO  [lib BDbaile] sweeper deleted M segments: 0001 to 000A
+20:47:17.329  INFO  [lib BDbaile] commit start BDbaile (session 1)
+20:47:17.360  INFO  [lib BDbaile] commit 13 on BDbaile (session 1)
+20:47:17.457  INFO  [lib BDbaile] commit 13 done
+20:47:17.457  INFO  [lib BDbaile] sweeper deleted 1/1 docs: 55 in ms 0.146129
+20:47:17.457  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 4 5 6 7 8 9 a ][ b c ]
+20:47:17.457  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 56
+20:51:31.584  INFO  [lib BDbaile] All sessions closed
+20:51:31.617  INFO  [lib BDbaile] Sweeper stopped
+20:51:31.617  INFO  [lib BDbaile] library closed 

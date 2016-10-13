@@ -1,0 +1,29 @@
+10:11:17.892  INFO  [LibraryManager] ---- group creation in C:\Users\Alex Lopez\Desktop\DAW\Lenguaje de marcas\XQUERY\Ejercicioss
+10:11:17.892  INFO  [LibraryManager]  100
+11:27:35.891  INFO  [LibraryManager] shutdown begins
+11:27:35.954  INFO  [LibraryManager]  closed library BDbaile
+11:27:35.954  INFO  [LibraryManager] shutdown complete.
+11:55:18.297  INFO  [LibraryManager] ---- starting up ----
+11:55:18.297  INFO  [LibraryManager]  100
+11:55:18.767  INFO  [LibraryManager] Library group ready
+22:59:40.781  INFO  [LibraryManager] shutdown begins
+22:59:41.012  INFO  [LibraryManager]  closed library BDbaile
+22:59:41.012  INFO  [LibraryManager] shutdown complete.
+19:29:10.669  INFO  [LibraryManager] ---- starting up ----
+19:29:10.670  INFO  [LibraryManager]  100
+19:29:11.238  INFO  [LibraryManager] Library group ready
+20:51:31.533  INFO  [LibraryManager] shutdown begins
+20:51:31.633  INFO  [LibraryManager]  closed library BDbaile
+20:51:31.633  INFO  [LibraryManager] shutdown complete.
+20:52:24.704  INFO  [LibraryManager] ---- starting up ----
+20:52:24.719  INFO  [LibraryManager]  100
+20:52:25.323  INFO  [LibraryManager] Library group ready
+21:17:01.762  INFO  [LibraryManager] shutdown begins
+21:17:01.809  INFO  [LibraryManager]  closed library BDbaile
+21:17:01.809  INFO  [LibraryManager] shutdown complete.
+21:23:03.572  INFO  [LibraryManager] ---- starting up ----
+21:23:03.572  INFO  [LibraryManager]  100
+21:23:03.703  INFO  [LibraryManager] Library group ready
+21:37:54.982  INFO  [LibraryManager] shutdown begins
+21:37:55.013  INFO  [LibraryManager]  closed library BDbaile
+21:37:55.013  INFO  [LibraryManager] shutdown complete.

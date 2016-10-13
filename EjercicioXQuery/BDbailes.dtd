@@ -1,0 +1,14 @@
+<!ELEMENT bailes (baile+)>
+<!ELEMENT baile (nombre,precio,plazas,comienzo,fin,profesor,sala)>
+<!ATTLIST baile id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio 
+  cuota CDATA #REQUIRED
+  moneda CDATA #REQUIRED
+  >
+  <!ELEMENT plazas (#PCDATA)>
+  <!ELEMENT comienzo (#PCDATA)>
+  <!ELEMENT fin (#PCDATA)>
+  <!ELEMENT profesor (#PCDATA)>
+  <!ELEMENT sala (#PCDATA)>

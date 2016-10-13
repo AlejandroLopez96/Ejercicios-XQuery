@@ -1,0 +1,33 @@
+10:11:34.971  INFO  [lib BDbaile] Qizx 4.4p1 creating new XML Library in C:\Users\Alex Lopez\Desktop\DAW\Lenguaje de marcas\XQUERY\Ejercicioss\BDbaile
+10:11:34.971  INFO  [lib BDbaile] create storage in C:\Users\Alex Lopez\Desktop\DAW\Lenguaje de marcas\XQUERY\Ejercicioss\BDbaile\contents.qdb
+10:11:34.971  INFO  [lib BDbaile] storage created
+10:11:35.367  INFO  [lib BDbaile] library creation done
+10:11:51.952  INFO  [lib BDbaile] commit start BDbaile (session 1)
+10:11:51.999  INFO  [lib BDbaile] commit 1 on BDbaile (session 1)
+10:11:52.035  INFO  [lib BDbaile] commit 1 done
+10:11:52.035  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 ][ 1 2 ]
+10:11:52.036  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 5
+10:11:59.854  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+10:12:45.073  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+10:12:56.273  INFO  [lib BDbaile] commit start BDbaile (session 1)
+10:12:56.342  INFO  [lib BDbaile] commit 2 on BDbaile (session 1)
+10:12:56.373  INFO  [lib BDbaile] commit 2 done
+10:12:56.373  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 11
+10:12:56.373  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 ][ 1 2 3 ]
+10:38:23.454  INFO  [lib BDbaile] commit start BDbaile (session 1)
+10:38:23.507  INFO  [lib BDbaile] commit 3 on BDbaile (session 1)
+10:38:23.554  INFO  [lib BDbaile] commit 3 done
+10:38:23.554  INFO  [lib BDbaile] sweeper deleted 1/1 metadocs: 19
+10:38:23.554  INFO  [lib BDbaile] commit end BDbaile (session 1) -> state: [ 1 2 3 ][ 1 2 3 4 ]
+11:07:35.807  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): El marcador en el documento que precede al elemento raíz debe tener el formato correcto.
+11:11:33.449  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): -1
+11:14:01.182  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): Final de archivo prematuro.
+11:27:35.930  INFO  [lib BDbaile] All sessions closed
+11:27:35.931  INFO  [lib BDbaile] Sweeper stopped
+11:27:35.947  INFO  [lib BDbaile] library closed 
+11:55:18.752  INFO  [lib BDbaile] Library opened by Qizx 4.4p1
+11:55:18.767  INFO  [lib BDbaile]  location C:\Users\Alex Lopez\Desktop\DAW\Lenguaje de marcas\XQUERY\Ejercicioss\BDbaile
+11:55:18.767  INFO  [lib BDbaile]  document storage version=5, lastBId=30, BCount=22, maxA=502
+11:56:38.787  INFO  [lib BDbaile] BDbaile (session 1) error parsing document file:///C:/Users/Alex%20Lopez/Desktop/N/CLASE%204%20MAYO/EjercicioXQuery/BDbailes.dtd (/BDbailes.dtd): Final de archivo prematuro.
+22:59:40.865  INFO  [lib BDbaile] All sessions closed
+22:59:40.997  INFO  [lib BDbaile] library closed 

@@ -1,0 +1,104 @@
+(:1.Bailes que se realizan en la sala numero 1. Hazlo para que el resultado
+aparezca con las etiquetas XML y otra vez con forma de listado:)
+
+(:doc("BDbailes.xml")//bailes/baile[sala=1]/nombre:)
+(:for $re in doc("BDbailes.xml")//bailes/baile
+where $re/sala=1
+return $re/nombre/text():)
+
+
+(:2.Indicar los bailes que se imparten en la sala 2, cuyo precio sea menor a
+35 euros y se pague en dólares:)
+
+(:for $re in doc("BDbailes.xml")/bailes/baile
+where $re/sala=2 and $re/precio<35 and $re/precio[@moneda="dolares"]
+return <baile>{data($re/nombre)}</baile>:)
+
+
+(:3.Nombre de los profesores que dan clase con cuotas mensuales:)
+
+(:for $re in doc("BDbailes.xml")//bailes/baile
+where $re/precio/@cuota="mensual"
+return $re/profesor o tambien return $re/profesor/text():)
+
+
+(:4.Haz un listado de cada profesor con su baile, en formato listado y
+formato XML:)
+
+(: formato XML :)
+(:for $r in doc("BDbailes.xml")//baile
+let $p:=$r/profesor
+let $b:=$r/nombre
+return (<profesor><nombre>{data($p)}</nombre> <baile>{data($b)}</baile></profesor>):)
+
+(:formato Listado :)  
+(: for  $re in doc("BDbailes.xml")/bailes/baile 
+let $nom:=$re/profesor
+let $bai:=$re/nombre
+order by $nom ascending
+return ($nom/text(),$bai/text()):)
+
+
+(:5.-Haz un listado ordenado por nombre de los bailes:)
+
+(:for $r in doc("BDbailes.xml")//bailes/baile
+order by $r/nombre
+return $r/nombre:)
+
+(: for $resul in doc("BDbailes.xml")/bailes/baile/nombre
+order by $resul
+return (<baile>{data($resul)}</baile>) :)
+
+
+(:6.-Listado ordenado por nombre de los bailes que se paguen en euros :)
+
+(:for $r in doc("BDbailes.xml")//bailes/baile
+where $r/precio/@moneda="euro"
+order by $r/nombre
+return $r/nombre:)
+
+(: for $resul in doc("BDbailes.xml")/bailes/baile
+let $baile:=$resul/nombre
+where $resul/precio/@moneda="euro"
+order by $baile
+return (<baile>{data($baile)}</baile>) :)
+
+
+(: 7.-Bailes que tengan menos de 20 plazas y se paguen en dólares :)
+
+(:for $r in doc("BDbailes.xml")//bailes/baile
+where $r/precio/@moneda="dolares" and $r/plazas<20
+return $r/nombre:)
+
+(: for $resul in doc("BDbailes.xml")/bailes/baile
+let $baile:=$resul/nombre
+where $resul/precio/@moneda="dolares" and $resul/plazas<20
+order by $baile
+return (<baile>{data($baile)}</baile>) :)
+
+
+(:8.-Insertar un nodo:)
+
+(:insert node
+   <baile id="7">
+    <nombre>Reggaeton</nombre>
+    <precio cuota="mensual" moneda="euro">82</precio>
+    <plazas>9</plazas>
+    <comienzo>09/06/2012</comienzo>
+    <fin>9/12/2012</fin>
+    <profesor>Esteban Quito</profesor>
+    <sala>1</sala>
+  </baile>
+as last into doc ("BDbailes.xml")//bailes:)
+
+
+(:9.- Modificar un nodo:)
+
+(:replace value of node doc("BDbailes.xml")//bailes/baile[@id=7]/precio 
+with "96":)
+
+
+(:10.-Eliminar un nodo :)
+
+(:delete node doc("BDbailes.xml")//bailes/baile[@id=7]:)
+
